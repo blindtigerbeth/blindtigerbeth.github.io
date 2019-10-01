@@ -1,14 +1,90 @@
-.maincopy {
-  width: 100vw;
+body {
   margin: 0;
-  padding: 0;
+}
+
+.emailaddress {
+  text-align: center;
+    color: white;
+    width: 100%;
+    font-family: arial;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+.maincopy {
+  width: 50%;
+    margin: 0;
+    padding: 0;
+    left: 25%;
+    right: 25%;
+    position: absolute;
 }
 
 #logo {
-  width: 250px;
+  width: 280px;
   margin: 0 auto;
   left: 0;
   right: 0;
-  position: absolute;
-  padding-top: 40px;
+  /* position: absolute; */
+  padding: 40px;
+  display: block;
+}
+
+.myButton {
+	background-color:#fff;
+	border:2px solid #000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+  font-family: Arial black;
+  font-size: 14px;
+	padding:16px 31px;
+	text-decoration:none;
+  width: 160px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: auto;
+}
+.myButton:hover {
+	background-color:#000;
+  color:#fff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#imagery {
+  width: 350px;
+  /* position: absolute; */
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+  padding-bottom: 30px;
+}
+footer   {
+    position: fixed;
+    bottom: 0;
+    padding: 12px 0;
+    background-color: black;
+    margin: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+
+  .maincopy {
+    width: 100%;
+      margin: 0;
+      padding: 0;
+      left: 0%;
+      right: 0%;
+      position: absolute;
+  }
 }
